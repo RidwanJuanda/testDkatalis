@@ -12,7 +12,7 @@ object SharePref {
 
     fun with(application: Application) {
         preferences =
-            application.getSharedPreferences("com.eventori.app.data", Context.MODE_PRIVATE)
+            application.getSharedPreferences("com.example.testdkatalis.data", Context.MODE_PRIVATE)
     }
 
     fun saveString(key: String, value: String?) {
